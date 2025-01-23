@@ -13,9 +13,7 @@
         <p class="logo">(Logo)</p>
         <div id="searcher--desktop">
             <div class="searcher--conteiner--desktop">
-                <button id="boton--buscar">
-                    <i class="bi bi-search searcher--icon"></i>
-                </button>
+                <i class="bi bi-search searcher--icon"></i>
                 <input class="searcher--desktop" type="text" placeholder="¿Que estás buscando?">
             </div>
         </div>
@@ -33,11 +31,27 @@
                     <a class="nav--item" href="#">Contacto</a>
                 </li>
 
-                <li>
-                    <a class="nav--item nav--icon" href="#">
+                <li class="submenu">
+                    <button class="nav--item nav--icon" href="#">
                         <i class="bi bi-cart"></i>
-                        <p class="nav--icon--p">Carrito</p>
-                    </a>
+                        <a href="/carrito/carrito.html" class="nav--icon--p">Carrito</a>
+                    </button>
+                    <div id="carrito">
+                                    
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody"></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                </div>
                 </li>
 
                 <li>
@@ -113,6 +127,7 @@
     <script src="../nav.js"></script>
     <script src="bd.js"></script>
     <script src="app.js"></script>
+    <script src="/carrito/carrito.js"></script>
 </body>
 
 </html>

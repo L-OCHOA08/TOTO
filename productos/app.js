@@ -61,6 +61,7 @@ function cargarProductos(stock) {
             const producto = document.createElement('div');
             producto.classList.add('product');
             producto.id = `${marca}`;
+            producto.dataset.modelo = `${modelo}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -111,6 +112,7 @@ function filtrarPrecio() {
             const producto = document.createElement('div');
             producto.classList.add('product');
             producto.id = `${marca}`;
+            producto.dataset.modelo = `${modelo}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -162,6 +164,7 @@ function filtrarCat() {
             const producto = document.createElement('div');
             producto.classList.add('product');
             producto.id = `${marca}`;
+            producto.dataset.modelo = `${modelo}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');

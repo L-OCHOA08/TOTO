@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="carrito.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--  ---------------BUSCADOR EN COMPUTADORA DE ESCRITORIO--------------- -->
+        <p class="logo">(Logo)</p>
+
+        <button class="abrir--menu"><i class="bi bi-list"></i></button>
+        <nav id="nav">
+            <button class="cerrar--menu"><i class="bi bi-x"></i></button>
+            <ul>
+
+                <li>
+                    <a class="nav--item" href="#">Sobre nosotros</a>
+                </li>
+
+                <li>
+                    <a class="nav--item" href="#">Contacto</a>
+                </li>
+
+                <li>
+                    <a class="nav--item nav--icon" href="#">
+                        <i class="bi bi-cart"></i>
+                        <p class="nav--icon--p">Carrito</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="nav--item nav--icon" href="#">
+                        <i class="bi bi-person"></i>
+                        <p class="nav--icon--p">Carrito</p>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--------------------------- CARRITO ---------------------------->
+
+    <main id="carrito">
+
+        <div class="carrito--header">
+            <div class="img--producto--header">
+                <h2>Imagen</h2>
+            </div>
+            <div class="title--producto--header">
+                <h2>Producto</h2>
+            </div>
+            <div class="cantidad--producto--header">
+                <h2>Cantidad</h2>
+            </div>
+            <div class="precios--producto--header">
+                <h2>Precio</h2>
+            </div>
+        </div>
+
+        <div class="carrito--cuerpo">
+            <div class="img--producto"></div>
+            <div class="title--producto"></div>
+            <div class="cantidad--producto"></div>
+            <div class="precios--producto"></div>
+        </div>
+    </main>
+</body>
+</html>

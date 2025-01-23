@@ -43,7 +43,41 @@ ul, a{
 
 .nav--icon{
     font-size: 28px;
+    background-color: transparent;
+    border: none;
 }
+
+.submenu:hover #carrito{
+    display: block;
+}
+
+#carrito{
+    display: block;
+    position: absolute;
+    right: 4%;
+    width: auto;
+    min-height: 400px;
+    height: auto;
+    background-color: #fff;
+}
+
+#lista-carrito{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1; }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
 
 .nav--icon--p{
     display: none;
@@ -69,28 +103,19 @@ ul{
     height: 4.5vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #fff;
     border-radius: 30px;
 }
 
 .searcher--desktop{
-    height: 80%;
+    height: 85%;
     width: 90%;
     border: none;
     font-size: 16px;
+    gap: 1rem;
     outline: none;
     border-radius: 30px;
-}
-
-#boton--buscar{
-    width: 35px;
-    height: 35px;
-    position: relative;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
 }
 
 #searcher{
@@ -102,10 +127,7 @@ ul{
 }
 
 .searcher--icon{
-    position: absolute;
     font-size: 25px;
-    top: 0;
-    left: 0;
 }
 
 .searcher{
