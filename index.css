@@ -106,6 +106,72 @@ ul{
     outline: none;
 }
 
+.nav--item{
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav--icon{
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+}
+
+.submenu:hover #carrito{
+    display: flex;
+}
+
+#carrito{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 4%;
+    width: auto;
+    min-height: 400px;
+    height: auto;
+    background-color: #fff;
+}
+
+#lista-carrito{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+  text-align: center; 
+}
+th:first-child, td:first-child {
+  padding-left: 15px; 
+}
+th:last-child, td:last-child {
+  padding-right: 15px; 
+}
+
+.borrar-curso{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#vaciar-carrito{
+    margin-bottom: 1rem;
+    border: 3px solid rgb(131, 10, 10);
+    background-color: red;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+
+}
+
 #slider--marcas{
     margin: auto;
     width: 75%;

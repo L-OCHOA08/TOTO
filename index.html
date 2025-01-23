@@ -32,11 +32,28 @@
                     <a class="nav--item" href="#">Contacto</a>
                 </li>
 
-                <li>
-                    <a class="nav--item nav--icon" href="#">
+                <li class="submenu">
+                    <button class="nav--item nav--icon" href="#">
                         <i class="bi bi-cart"></i>
-                        <p class="nav--icon--p">Carrito</p>
-                    </a>
+                        <a href="/carrito/carrito.html" class="nav--icon--p">Carrito</a>
+                    </button>
+                    <div id="carrito">
+                                    
+                        <table id="lista-carrito" class="u-full-width">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody"></tbody>
+                        </table>
+
+                        <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                </div>
                 </li>
 
                 <li>
