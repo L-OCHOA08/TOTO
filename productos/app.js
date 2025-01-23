@@ -62,6 +62,7 @@ function cargarProductos(stock) {
             producto.classList.add('product');
             producto.id = `${marca}`;
             producto.dataset.modelo = `${modelo}`;
+            producto.dataset.id = `${id}`
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -93,7 +94,9 @@ function cargarProductos(stock) {
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');
+            agregarBoton.dataset.id = `${id}`
             agregarBoton.classList.add('product--button');
+            agregarBoton.classList.add('agregar-carrito');
             agregarBoton.textContent = 'Agregar';
             producto.appendChild(agregarBoton);
         }
@@ -110,6 +113,7 @@ function filtrarPrecio() {
         const { marca, modelo, precioMinorista, precioMayorista, img, categoria} = stockk;
         if (filterMax >= precioMinorista) {
             const producto = document.createElement('div');
+            producto.dataset.id = `${id}`
             producto.classList.add('product');
             producto.id = `${marca}`;
             producto.dataset.modelo = `${modelo}`;
@@ -144,7 +148,9 @@ function filtrarPrecio() {
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');
+            agregarBoton.dataset.id = `${id}`
             agregarBoton.classList.add('product--button');
+            agregarBoton.classList.add('agregar-carrito');
             agregarBoton.textContent = 'Agregar';
             producto.appendChild(agregarBoton);
         } else{
@@ -159,9 +165,10 @@ function filtrarCat() {
     const selector = document.querySelector('#selectorCateg').value;
 
     stock.forEach(stockk =>{
-        const { marca, modelo, precioMinorista, precioMayorista, img, categoria} = stockk;
+        const { id, marca, modelo, precioMinorista, precioMayorista, img, categoria} = stockk;
         if (categoria == selector) {
             const producto = document.createElement('div');
+            producto.dataset.id = `${id}`
             producto.classList.add('product');
             producto.id = `${marca}`;
             producto.dataset.modelo = `${modelo}`;
@@ -196,7 +203,9 @@ function filtrarCat() {
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');
+            agregarBoton.dataset.id = `${id}`
             agregarBoton.classList.add('product--button');
+            agregarBoton.classList.add('agregar-carrito');
             agregarBoton.textContent = 'Agregar';
             producto.appendChild(agregarBoton);
         } else{

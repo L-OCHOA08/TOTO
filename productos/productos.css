@@ -48,11 +48,14 @@ ul, a{
 }
 
 .submenu:hover #carrito{
-    display: block;
+    display: flex;
 }
 
 #carrito{
-    display: block;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
     right: 4%;
     width: auto;
@@ -66,18 +69,38 @@ ul, a{
     padding: 0 1rem;
 }
 
-th,
-td {
+
+th, td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
-th:first-child,
-td:first-child {
-  padding-left: 0; }
-th:last-child,
-td:last-child {
-  padding-right: 0; }
+  border-bottom: 1px solid #E1E1E1;
+  text-align: center; 
+}
+th:first-child, td:first-child {
+  padding-left: 15px; 
+}
+th:last-child, td:last-child {
+  padding-right: 15px; 
+}
 
+.borrar-curso{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#vaciar-carrito{
+    margin-bottom: 1rem;
+    border: 3px solid rgb(131, 10, 10);
+    background-color: red;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+
+}
 
 .nav--icon--p{
     display: none;
@@ -191,6 +214,8 @@ ul{
     border: none;
     background-color: #006A67;
     color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .filtrar--contenedor{
