@@ -9,14 +9,15 @@ body{
 }
 
 header{
-    width: 95vw;
-    height: 8vh;
-    background-color: #000B58;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    margin-bottom: 5rem;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .logo{
@@ -109,6 +110,7 @@ ul{
     margin: auto;
     width: 75%;
     height: 15vh;
+    margin-top: 20dvh;
     position: relative;
     display: flex;
     background-color: #000B58;
@@ -172,7 +174,7 @@ ul{
 #hero--conteiner{
     width: 90vw;
     margin: auto;
-    height: 60.3vh;
+    height: auto;
     background-color: #000B58;
 }
 
@@ -284,7 +286,7 @@ main{
 
 .productos--nuevos--contenedor{
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 

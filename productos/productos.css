@@ -3,20 +3,21 @@ h1, h2, h3, p, ul, label, a{
 }
 
 body{
-    background-color: #000B58;
+    background: #000B58;
     margin: 0;
     height: auto;
 }
 
 header{
-    width: 95vw;
-    height: 8vh;
-    background-color: #000B58;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-    margin-bottom: 5rem;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .logo{
@@ -121,6 +122,7 @@ ul{
     height: 95%;
     background-color: #003161;
     border-radius: 20px;
+    transition: .7s ease-in-out;
 }
 
 .product--img{
@@ -128,10 +130,12 @@ ul{
     height: 250px;
     padding-top: 1rem;
     object-fit: contain;
+    transition: .7s ease-in-out;
 }
 
 .product--text{
     color: #fff;
+    transition: .7s ease-in-out;
 }
 
 .product--title{
@@ -153,10 +157,10 @@ ul{
 .product--button{
     margin-left: 1rem;
     padding: 10px 15px;
-    border-radius: 10px;
     border: none;
-    background-color: #000B58;
+    background-color: #006A67;
     color: #fff;
+    transition: .7s ease-in-out;
 }
 
 .filtrar--contenedor{
@@ -164,6 +168,7 @@ ul{
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 20dvh;
 }
 
 .filter--icon{
@@ -176,6 +181,7 @@ ul{
 
 .filtrar--contenedor label{
     font-size: 30px;
+    font-weight: 700;
     color: #fff;
     background-color: transparent;
     border: none;
@@ -185,7 +191,7 @@ ul{
 .filtros{
     visibility: hidden;
     width: 80%;
-    height: 10dvh;
+    height: auto;
     padding-left: 6.5rem;
     display: flex;
     align-items: center;
@@ -205,8 +211,20 @@ ul{
     padding: 5px 10px;
 }
 
+#filtros--input{
+    background-color: #006A67;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
 .visible{
     visibility: visible;
+    height: 10dvh;
 }
 
 
