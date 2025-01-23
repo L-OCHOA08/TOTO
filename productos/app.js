@@ -1,5 +1,7 @@
 // VARIABLES
 
+const searcherDesk = document.querySelector('.searcher--desktop');
+const searcher = document.querySelector('.searcher');
 const contenedor = document.querySelector('#productos');
 const producto = document.querySelectorAll('.product')
 const filter = document.querySelector('#filter--button');
@@ -9,13 +11,26 @@ const maximo = document.querySelector('#hasta');
 
 // EVENT LISTENERS
 
+searcherDesk.addEventListener('keyup', (e)=>{
+    if (e.key === 'Enter') {
+        event.preventDefault();
+        buscar(searcherDesk);
+    }
+    
+})
+
+searcher.addEventListener('keyup', (e) =>{
+    if (e.key === 'Enter') {
+        event.preventDefault();
+        buscar(searcher)
+    }
+})
 
 filtros.addEventListener('submit', (e)=>{
     e.preventDefault();
     
     filtrarCat();
 })
-
 
 
 filter.addEventListener('change', ()=>{
@@ -45,6 +60,7 @@ function cargarProductos(stock) {
         if (stock >= 1) {
             const producto = document.createElement('div');
             producto.classList.add('product');
+            producto.id = `${marca}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -94,6 +110,7 @@ function filtrarPrecio() {
         if (filterMax >= precioMinorista) {
             const producto = document.createElement('div');
             producto.classList.add('product');
+            producto.id = `${marca}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -144,6 +161,7 @@ function filtrarCat() {
         if (categoria == selector) {
             const producto = document.createElement('div');
             producto.classList.add('product');
+            producto.id = `${marca}`;
             contenedor.appendChild(producto);
     
             const imagenProd = document.createElement('img');
@@ -184,6 +202,22 @@ function filtrarCat() {
     })
 }
 
+
+function buscar(buscador) {
+    const query = buscador.value.trim().toLowerCase()
+    const producto = document.querySelectorAll('.product')
+    producto.forEach(productos => {
+        const productoId = productos.getAttribute('id').toLowerCase()
+        console.log(productoId);
+        if (query != productoId) {
+            productos.classList.add('invisible')
+        } else{
+            productos.classList.remove('invisible')
+        }
+    })
+    
+    
+}
 
 function limpiarHTML() {
    while (contenedor.firstChild) {
