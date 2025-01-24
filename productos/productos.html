@@ -84,14 +84,11 @@
             <label for="filter--button">Filtrar <i class="bi bi-funnel-fill"></i></label>
         </div>
 
-        <form class="filtros" method="">
-            <div class="filtro--price">
-                <label class="filtros--label" for="hasta">Hasta: $</label>
-                <input class="filtros--input" type="number" name="hasta" id="hasta" placeholder="Máximo">
-            </div>
+        <form class="filtros invisible" method="">
 
             <div class="filtro--categoria">
-                <label for="selectorCateg">Categoria</label>
+                <div class="categoria--contenedor">
+                    <label for="selectorCateg">Categoria</label>
                 <select name="selectorCateg" id="selectorCateg">
                     <option value="">---</option>
                     <option value="Celulares">CELULARES</option>
@@ -115,6 +112,12 @@
                     <option value="PC">NOTEBOOKS Y PC DE ESCRITORIO</option>
                     <option value="Tecnologia">COMPUTACIÓN Y TECNOLOGÍA</option>
                 </select>
+                </div> 
+            </div>
+
+            <div class="filtro--price">
+                <label class="filtros--label" for="hasta">Hasta: $</label>
+                <input class="filtros--input invisible" type="number" name="hasta" id="hasta" placeholder="Máximo">
             </div>
 
             <input id="filtros--input" type="submit" value="Filtrar">

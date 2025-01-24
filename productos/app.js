@@ -35,13 +35,13 @@ filtros.addEventListener('submit', (e)=>{
 
 filter.addEventListener('change', ()=>{
     if (filter.checked) {
-        filtros.classList.add('visible');
-        maximo.style='visibility: visible;';
-        filtrarBoton.style='visibility: visible;';
+        filtros.classList.remove('invisible');
+        maximo.classList.remove('invisible');
+        filtrarBoton.classList.remove('invisible');
     } else{
-        filtros.classList.remove('visible');
-        maximo.style='visibility: hidden;';
-        filtrarBoton.style='visibility: hidden;';
+        filtros.classList.add('invisible');
+        maximo.classList.add('invisible')
+        filtrarBoton.style='visibility: visible;';
     }
 })
 

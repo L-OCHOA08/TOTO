@@ -237,6 +237,10 @@ ul{
     visibility: hidden;
 }
 
+#hasta{
+    visibility: visible;
+}
+
 .filtrar--contenedor label{
     font-size: 30px;
     font-weight: 700;
@@ -247,9 +251,8 @@ ul{
 }
 
 .filtros{
-    visibility: hidden;
     width: 80%;
-    height: auto;
+    height: 10dvh;
     padding-left: 6.5rem;
     display: flex;
     align-items: center;
@@ -278,7 +281,7 @@ ul{
 }
 
 .invisible{
-    visibility: hidden;
+    display: none;
 }
 
 .visible{
@@ -298,17 +301,25 @@ ul{
     }
 
     header{
-        width: 100%;
+        position: fixed;
+        width: 100dvw;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 2rem;
+        display: flex;
+        
+    }
+
+    .logo--conteiner{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .logo{
-        font-size: 30px;
-        color: #fff;
-        padding: 0;
-        margin-left: 1rem;
+        width: 100%;
     }
 
     nav{
@@ -359,7 +370,7 @@ ul{
         display: block;
         width: 100%;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 10rem;
         padding: 0;
     }
 
@@ -369,6 +380,7 @@ ul{
         height: 95%;
         display: flex;
         align-items: center;
+        justify-content: center;
         background-color: #fff;
         border-radius: 30px;
     }
@@ -378,10 +390,38 @@ ul{
         height: 42%;
     }
 
+    .filtrar--contenedor{
+        margin-top: 5dvh;
+    }
+
+    .filter--icon{
+        padding: 0;
+    }
+
+    .filtros{
+        padding: 0;
+        width: 100%;
+        height: auto;
+        gap: 2rem;
+        border-radius: 0;
+        flex-direction: column;
+    }
+
+    .categoria--contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    #filtros--input{
+        visibility: visible;
+        margin-bottom: 2rem;
+    }
+
     #productos{
         width: 100%;
         height: 400px;
-        margin-top: 3rem;
         display: grid;
         align-items: center;
         justify-items: center;
