@@ -1,6 +1,6 @@
 const stock = [
     {
-        id : 1,
+        id : 0,
         marca: 'Samsung',
         modelo: 'A30s',
         precioMinorista: 70000,
@@ -10,7 +10,7 @@ const stock = [
         stock: 5
     },
     {
-        id : 0,
+        id : 1,
        marca: 'Samsung',
        modelo: 'A30',
        precioMinorista: 50000,
