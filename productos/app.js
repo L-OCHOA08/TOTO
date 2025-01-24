@@ -85,12 +85,12 @@ function cargarProductos(stock) {
     
             const minorista = document.createElement('p');
             minorista.classList.add('product--price--minorist');
-            minorista.textContent = 'Minorista: ' + precioMinorista;
+            minorista.textContent = 'Minorista: $' + precioMinorista;
             precios.appendChild(minorista);
     
             const mayorista = document.createElement('p');
             mayorista.classList.add('product--price--mayorist');
-            mayorista.textContent = 'Mayorista: ' + precioMayorista;
+            mayorista.textContent = 'Mayorista: $' + precioMayorista;
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');
@@ -139,12 +139,12 @@ function filtrarPrecio() {
     
             const minorista = document.createElement('p');
             minorista.classList.add('product--price--minorist');
-            minorista.textContent = 'Minorista: ' + precioMinorista;
+            minorista.textContent = 'Minorista: $' + precioMinorista;
             precios.appendChild(minorista);
     
             const mayorista = document.createElement('p');
             mayorista.classList.add('product--price--mayorist');
-            mayorista.textContent = 'Mayorista: ' + precioMayorista;
+            mayorista.textContent = 'Mayorista: $' + precioMayorista;
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');
@@ -238,12 +238,12 @@ function filtrarCat() {
     
             const minorista = document.createElement('p');
             minorista.classList.add('product--price--minorist');
-            minorista.textContent = 'Minorista: ' + precioMinorista;
+            minorista.textContent = 'Minorista: $' + precioMinorista;
             precios.appendChild(minorista);
     
             const mayorista = document.createElement('p');
             mayorista.classList.add('product--price--mayorist');
-            mayorista.textContent = 'Mayorista: ' + precioMayorista;
+            mayorista.textContent = 'Mayorista: $' + precioMayorista;
             precios.appendChild(mayorista);
     
             const agregarBoton = document.createElement('button');

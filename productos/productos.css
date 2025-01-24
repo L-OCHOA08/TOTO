@@ -286,7 +286,6 @@ ul{
 
 .visible{
     visibility: visible;
-    height: 10dvh;
 }
 
 
@@ -335,7 +334,8 @@ ul{
         bottom: 0;
         padding: 2rem;
         z-index: 3;
-        background-color: blue;
+        background-color: #AD49E1;
+        height: 100dvh;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     }
 
@@ -355,11 +355,20 @@ ul{
         height: 61px;
         align-items: center;
         gap: 1rem;
+        color: #fff;
+    }
+
+    .nav--item{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0;
     }
 
     .nav--icon--p{
         display: block;
         font-size: 18px;
+        margin: 0;
     }
 
     #searcher--desktop{
@@ -429,6 +438,6 @@ ul{
     }
 
     .product--img{
-        object-fit: cover;
+        object-fit: contain;
     }
 }
