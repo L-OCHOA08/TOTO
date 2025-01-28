@@ -440,4 +440,8 @@ ul{
     .product--img{
         object-fit: contain;
     }
+
+    .submenu:hover #carrito{
+        display: none;
+    }
 }

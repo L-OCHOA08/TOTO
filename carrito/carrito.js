@@ -9,15 +9,16 @@ let articulosCarrito = [];
 
 cargarEventListeners();
 function cargarEventListeners() {
-    productosLista.addEventListener('click', agregarCurso);
-
-    carrito.addEventListener('click', eliminarCurso);
 
     document.addEventListener('DOMContentLoaded', ()=>{
         articulosCarrito = JSON.parse( localStorage.getItem('carrito') ) || [];
 
         carritoHTML()
     })
+
+    carrito.addEventListener('click', eliminarCurso);
+
+    productosLista.addEventListener('click', agregarCurso);
 
     vaciarCarritoBtn.addEventListener('click', () => {
         articulosCarrito = []; // RESETEAMOS EL ARREGLO
@@ -96,7 +97,7 @@ function carritoHTML() {
             ${titulo}
         </td>
         <td>
-            ${precioMinorista}/${precioMayorista}
+            ${precioMinorista}, ${precioMayorista}
         </td>
         <td>
             ${cantidad}
