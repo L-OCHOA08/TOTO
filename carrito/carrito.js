@@ -123,3 +123,19 @@ function limpiarCarrito() {
         contenedorCarrito.removeChild(contenedorCarrito.firstChild)
     }
 }
+
+
+function wsp() {
+const numero = '1164909268';
+
+let mensaje = '¡Hola! Quiero hacer un pedido:%0A';
+
+articulosCarrito.forEach(item => {
+    const { id, imagen, titulo, precioMinorista, cantidad } = item;
+    mensaje += `- ${titulo} (x${cantidad}): $${precioMinorista}%0A`
+});
+
+const enlace = `https://wa.me/${numero}?text=${mensaje}`;
+document.getElementById("btnWhatsApp").href = enlace;
+}
+
