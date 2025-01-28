@@ -6,6 +6,7 @@ body{
     background: #2E073F;
     margin: 0;
     height: auto;
+    overflow-x: hidden;
 }
 
 header{
@@ -171,8 +172,8 @@ ul{
     align-items: center;
     justify-items: center;
     justify-content: center;
-    grid-auto-rows: 125% 125%;
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-auto-rows: 150% 150%;
+    grid-template-columns: 18% 18% 18% 18% 18%;
 }
 
 .product{
@@ -180,6 +181,10 @@ ul{
     height: 95%;
     background-color: #791bab;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .product--img{
@@ -194,8 +199,16 @@ ul{
     font-weight: 400;
 }
 
+.product--text h3{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
 .product--title{
     padding-left: 1rem;
+    width: 90%;
 }
 
 .product--price{

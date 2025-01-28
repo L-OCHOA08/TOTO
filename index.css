@@ -163,6 +163,22 @@ th:last-child, td:last-child {
     background-color: red;
 }
 
+.botones--table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.boton--ir--carrito{
+    margin-bottom: 1rem;
+    border: 3px solid #111;
+    background-color: #ddd;
+    color: #111;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
 #vaciar-carrito{
     margin-bottom: 1rem;
     border: 3px solid rgb(131, 10, 10);
@@ -276,9 +292,9 @@ th:last-child, td:last-child {
 }
 
 .hero--link:hover{
-    border: #FFFBCA;
-    color: #AEEA94;
-    background-color: #FFFBCA;
+    border: #B771E5;
+    color: #fff;
+    background-color: #B771E5;
 }
 
 main{
