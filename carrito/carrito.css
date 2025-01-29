@@ -108,6 +108,23 @@ td:nth-child(5){
     margin-top: 15rem;
 }
 
+#btnWhatsApp{
+    position: relative;
+    color: #fff;
+    width: 10dvw;
+    height: 5dvh;
+    background-color: green;
+    border: solid #fff 2px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     .abrir--menu, .cerrar--menu{
         display: block;
@@ -219,5 +236,9 @@ td:nth-child(5){
     td:nth-child(3){
         min-width: 100px;
         max-width: 100px;
+    }
+
+    #btnWhatsApp{
+        width: 50dvw;
     }
 }
