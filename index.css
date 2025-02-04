@@ -341,7 +341,7 @@ main{
     max-width: 144px;
 }
 
-.category p{
+.category a{
     width: 110%;
     text-align: center;
     margin: 0;

@@ -5,7 +5,7 @@ const stock = [
         nombreProducto: "BICICLETA GIOVANNA NEGRA 12 NENE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "BICICLETA",
         stock: 1
     },
     {
@@ -14,7 +14,7 @@ const stock = [
         nombreProducto: "BICICLETA RODADO 12",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "BICICLETA",
         stock: 1
     },
     {
@@ -23,7 +23,7 @@ const stock = [
         nombreProducto: "BICICLETA FIREBIRD RODADO 29 ALUMINIO 21 VELOCIDADES AZUL",
         precioMayorista: null,
         precioMinorista: 20000,
-        categoria: "",
+        categoria: "BICICLETA",
         stock: 1
     },
     {
@@ -32,7 +32,7 @@ const stock = [
         nombreProducto: "BICICLETA RODADO 16 PASEO CON CANASTO NENA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "BICICLETA",
         stock: 1
     },
     {
@@ -41,7 +41,7 @@ const stock = [
         nombreProducto: "LOMITERO GAS ENVASADO DOBLE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -50,7 +50,7 @@ const stock = [
         nombreProducto: "LOMITERO GAS ENVASADO SIMPLE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -59,7 +59,7 @@ const stock = [
         nombreProducto: "PANCHERA PARA COMERCIO CON CALIENTA PAN",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -68,7 +68,7 @@ const stock = [
         nombreProducto: "TERMOTANQUE SEÑORIAL ELECTRICO ZAFIRO 95L CARGA SUPERIOR 1500W MOD TESZP-95",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Termotanques",
         stock: 1
     },
     {
@@ -77,16 +77,16 @@ const stock = [
         nombreProducto: "AMOLADORA LUSQTOFF ANGULAR 850W 115MM 12000RPM MOD AML850-8",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
         productoId: "17-122-1",
         img: "17-122-1.png",
-        nombreProducto: "BOMBA OMAHA PERIFERICA 037KW 0.5HP MOD QB60",
+        nombreProducto: "BOMBA OMAHA PERIFERICA 037 KW 0.5HP MODELO QB60",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -95,7 +95,7 @@ const stock = [
         nombreProducto: "BOMBA LUSQTOFF PERIFERICA 370W 0.5HP MOD CPM150",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -104,7 +104,7 @@ const stock = [
         nombreProducto: "BORDEADORA GAMMA MOTOR NAFTA 26CC MOD",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -113,7 +113,7 @@ const stock = [
         nombreProducto: "SIERRA OMAHA CIRCULAR 1250W MOD SC250",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -122,7 +122,7 @@ const stock = [
         nombreProducto: "TALADRO GAMMA PERCUTOR ATORNILLADOR DE IMPACTO 650W 250MM 3000RPM MOD G1901AR",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -131,7 +131,7 @@ const stock = [
         nombreProducto: "KIT OREBRO TALADRO + AMOLADORA INALAMBRICO 20V MOD TAB.20 AABB-20",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -140,7 +140,7 @@ const stock = [
         nombreProducto: "TALADRO LUSQTOFF ATORNILLADOR INALAMBRICO MOD TAL 12-8A",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -149,7 +149,7 @@ const stock = [
         nombreProducto: "KIT GOODYEAR HERRAMIENTAS 129PZA AZUL MOD GY-HTK-5009",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -158,7 +158,7 @@ const stock = [
         nombreProducto: "CONSERVADORA SOPRANO 3 EN 1",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -167,7 +167,7 @@ const stock = [
         nombreProducto: "VASO CON MANIJA 1.3L NEGRO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -176,7 +176,7 @@ const stock = [
         nombreProducto: "PILETA NAHUEL ESTRUCTURAL RECTANGULAR 300L 1.1M LARGO 0.90 ANCHO MOD N1",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -185,7 +185,7 @@ const stock = [
         nombreProducto: "PILETA NAHUEL ESTRUCTURAL RECTANGULAR 1250L 2.0M LARGO 1.25M ANCHO MOD N3",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -194,7 +194,7 @@ const stock = [
         nombreProducto: "PILETA NAHUEL ESTRUCTURAL RECTANGULAR 2800L 2.5M LARGO 1.6M ANCHO MOD N4",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -203,7 +203,7 @@ const stock = [
         nombreProducto: "PILETA NAHUEL ESTRUCTURAL RECTANGULAR 800L 1.60M LARGO 1.10M ANCHO MOD N2",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -212,7 +212,7 @@ const stock = [
         nombreProducto: "SET HUDSON OLLAS",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -221,7 +221,7 @@ const stock = [
         nombreProducto: "BOTELLA STANLEY TERMICO 350ML NEGRA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -230,7 +230,7 @@ const stock = [
         nombreProducto: "CANTIMPLORA INFANTIL CUERNOS 800 ML",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -239,7 +239,7 @@ const stock = [
         nombreProducto: "BOTELLA STANLEY 600ML",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -248,7 +248,7 @@ const stock = [
         nombreProducto: "BOTELLA STANLEY 800ML",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -257,7 +257,7 @@ const stock = [
         nombreProducto: "BOTELLA MOTIVACIONAL PLASTICO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -266,7 +266,7 @@ const stock = [
         nombreProducto: "VASO STANLEY CERVEZERO CON PARLANTE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -275,7 +275,7 @@ const stock = [
         nombreProducto: "TERMO PEABODY ELECTRICO CALENTADOR DE 1LTS NEGRO 700/800W",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -284,7 +284,7 @@ const stock = [
         nombreProducto: "TERMO STANLEY DE 1.3 LTS",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -293,7 +293,7 @@ const stock = [
         nombreProducto: "TERMO STANLEY DE 1.3 LTS OUTLET",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -302,7 +302,7 @@ const stock = [
         nombreProducto: "TERMO MATE STANLEY DE 1.3 LTS PREMIUM",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -311,7 +311,7 @@ const stock = [
         nombreProducto: "TERMO STANLEY TERERE CON MATE 2000ML",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -320,7 +320,7 @@ const stock = [
         nombreProducto: "TERMO PEABODY ELECTRICO CALENTADOR DE 1LTS PLATEADO 700/800W",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -329,7 +329,7 @@ const stock = [
         nombreProducto: "TENDER PLEGABLE AKMI 3 PISOS MOD TRB-01",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -338,7 +338,7 @@ const stock = [
         nombreProducto: "SARTEN WOK GIRATORIO 28CM MANGO DE MADERA MOD EL678",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -347,7 +347,7 @@ const stock = [
         nombreProducto: "SARTEN SUKA X3",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -356,7 +356,7 @@ const stock = [
         nombreProducto: "JUEGO DE CUBIERTO 24 PIEZAS FRASCO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -365,7 +365,7 @@ const stock = [
         nombreProducto: "JUEGO DE CUBIERTO 24 PIEZAS BANDEJA ORGANIZADORA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -374,7 +374,7 @@ const stock = [
         nombreProducto: "LATA STANLEY YERBA Y AZUCAR",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -383,7 +383,7 @@ const stock = [
         nombreProducto: "REPOSERA 5 POSICIONES REFORZADO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -392,7 +392,7 @@ const stock = [
         nombreProducto: "REPOSERA DE NIÑOS REFORZADA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -401,7 +401,7 @@ const stock = [
         nombreProducto: "VENTILADOR STAR TRACK 3 EN 1 90W 5 ASPAS MOD STP31-18P",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -410,7 +410,7 @@ const stock = [
         nombreProducto: "VENTILADOR VITTA INDUSTRIAL 30'' 2 EN 1 PISO/PARED",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -419,7 +419,7 @@ const stock = [
         nombreProducto: "VENTILADOR MAGICLICK TURBO 14 70W 5 ASPAS PLASTICAS 3 VELOCIDADES 180 MOD TURBO14",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -428,7 +428,7 @@ const stock = [
         nombreProducto: "VENTILADOR LILIANA 18'' MOD VPRN18",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -437,7 +437,7 @@ const stock = [
         nombreProducto: "VENTILADOR LILIANA 18'' DE PIE MOD VPC18M",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -446,7 +446,7 @@ const stock = [
         nombreProducto: "PANEL TEMPTECH CALEFACTOR ELECTRICO 250W",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Estufas",
         stock: 1
     },
     {
@@ -455,7 +455,7 @@ const stock = [
         nombreProducto: "PANEL PEABODY CONVECTOR CALEFACTOR POR CONVECCION PANEL VIDRIO TEMPLADO BLANCO MOD PE-BVC10RB 1000W",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Estufas",
         stock: 1
     },
     {
@@ -464,7 +464,7 @@ const stock = [
         nombreProducto: "PANEL CONVECTOR STARTRACK ELECTRICO 2000WTS 3 NIVELES MOD STCOT",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Estufas",
         stock: 1
     },
     {
@@ -473,7 +473,7 @@ const stock = [
         nombreProducto: "ESTUFA MAGICLICK DE CUARZO 1200W CORTE ANTICAIDA MOD C1000",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Estufas",
         stock: 1
     },
     {
@@ -482,7 +482,7 @@ const stock = [
         nombreProducto: "ESTUFA STAR TRACK HALOGENA1600K MOD STH125",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Estufas",
         stock: 1
     },
     {
@@ -491,7 +491,7 @@ const stock = [
         nombreProducto: "CELULAR MOTOROLA G13 4GB/128GB MOD XT2331-3",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Celulares",
         stock: 1
     },
     {
@@ -500,7 +500,7 @@ const stock = [
         nombreProducto: "CAMARA ORYX FOCO 360",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -509,7 +509,7 @@ const stock = [
         nombreProducto: "BATIDORA LUMABELLA DE MANO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -518,7 +518,7 @@ const stock = [
         nombreProducto: "LICUADORA DAEWOO POWER BLENDE 1600W 2LT MOD DIBL-210E",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -527,7 +527,7 @@ const stock = [
         nombreProducto: "LICUADORA ORYX 1.5LT",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -536,7 +536,7 @@ const stock = [
         nombreProducto: "LICUADORA DELHI ACERO MOD DL-700",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -545,7 +545,7 @@ const stock = [
         nombreProducto: "LICUADORA SMARTLIFE VASO DE VIDRIO MOD BL-1008B",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -554,7 +554,7 @@ const stock = [
         nombreProducto: "LICUADORA SMARTLIFE 600W MOD BL-1055PN",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -563,7 +563,7 @@ const stock = [
         nombreProducto: "LICUADORA SMARTLIFE DE MANO MIXER CON BATIDOR + VASO MEDIDOR 2 VELOCIDADES 800W MOD SL-SM5010PN",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -572,7 +572,7 @@ const stock = [
         nombreProducto: "LICUADORA WINCO DE MANO MIXER CON PICADOR MOD W09",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -581,7 +581,7 @@ const stock = [
         nombreProducto: "LICUADORA LUMABELLA DE MANO MIXER MINI ACERO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -590,7 +590,7 @@ const stock = [
         nombreProducto: "LICUADORA LUMABELLA MULTIPROCESADORA 4 EN 1 HAND BLENDER 300W BLANCO LB52009",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -599,7 +599,7 @@ const stock = [
         nombreProducto: "PAVA SMARTLIFE ELECTRICA ACERO INOXIDABLE C/ CORTE REGULADOR DE TEMPERATURA 1.5LTS 1850W MOD SL-EK1510IX",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -608,7 +608,7 @@ const stock = [
         nombreProducto: "PAVA PEABODY ELECTRICA VINTAGE CON TERMOMETRO 1.7L PLATEADO MOD PE-KV8215-S",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -617,7 +617,7 @@ const stock = [
         nombreProducto: "PAVA STAR TRACK ELECTRICA MATERA CON CORTE 1.8L 1500W MOD STJC150",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -626,7 +626,7 @@ const stock = [
         nombreProducto: "PAVA HUDSON MANUAL ACERO INOX BASE INDUCCION 1.5 SILVADORA MOD KT146SF",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -635,7 +635,7 @@ const stock = [
         nombreProducto: "CAFETERA OSTER PRIMALATTE AUTOMATICA CAPSULAS MONODOSIS ESPUMADOR DE LECHE 1.5L 1050W MOD BVSTEM6603B",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -644,7 +644,7 @@ const stock = [
         nombreProducto: "CAFETERA OM ELECTRICA EXPRESO DOLCE 750ML NEGRO MOD OM-102",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -653,7 +653,7 @@ const stock = [
         nombreProducto: "EXTRACTOR LILIANA DE JUGO NUTRIJUG CENTRIFUGA 2 VELOCIDADES 500W ACERO INOXIDABLE MOD AJ950",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -662,7 +662,7 @@ const stock = [
         nombreProducto: "EXPRIMIDOR LILIANA ELECTRICO EXPRIMY 1.2L 40W MOD AE921",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -671,7 +671,7 @@ const stock = [
         nombreProducto: "EXPRIMIDOR LUMABELLA ELECTRICO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -680,7 +680,7 @@ const stock = [
         nombreProducto: "BALANZA SYSTEL DE COMERCIO CON MASTIL MOD CROMA30",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -689,7 +689,7 @@ const stock = [
         nombreProducto: "BALANZA BRILIA 40KG",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -698,7 +698,7 @@ const stock = [
         nombreProducto: "FREIDORA ZENITH DE AIRE ANALOGICA 3.6L 1400W MOD Z-FRYER",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -707,7 +707,7 @@ const stock = [
         nombreProducto: "FREIDORA ORYX DE AIRE 3.5L",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -716,7 +716,7 @@ const stock = [
         nombreProducto: "VAPORIERA LILIANA NATURAL CHEF MANUAL 3 NIVELES 1.8LT 850W MOD AV925",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -725,7 +725,7 @@ const stock = [
         nombreProducto: "SANDWICHERA ORYX ELECTRICA COOK & FUN ANTIADHERENTE 750W MOD OR1800",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -734,7 +734,7 @@ const stock = [
         nombreProducto: "SANDWICHERA WICO 3EN1 MOD W340",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Cocinas",
         stock: 1
     },
     {
@@ -743,7 +743,7 @@ const stock = [
         nombreProducto: "PLANCHA PHILCO SECA C/ REGULADOR TEMPERATURA + ROCIADOR 1300W MOD PSP2432PI",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -752,7 +752,7 @@ const stock = [
         nombreProducto: "PLANCHA SMARTLIFE SECA C/ ROCIADOR 1200W MOD SL-DI2386PN",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -761,7 +761,7 @@ const stock = [
         nombreProducto: "TENSIOMETRO ARM DIGITAL DE BRAZO AUTOMATICO MOD BW3205",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -770,7 +770,7 @@ const stock = [
         nombreProducto: "AFEITADORA GAMA ITALY INALAMBRICA SPORT WET & DRY USB GRIS MOD GSH1527",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -779,7 +779,7 @@ const stock = [
         nombreProducto: "AFEITADORA GAMA ITALY INALAMBRICA GIRATORIA AMARILLO MOD GSH986",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -788,7 +788,7 @@ const stock = [
         nombreProducto: "CORTADORA GAMA ITALY ELECTRICA MAGNETIC CLIPPER MAGNETICA 13 PIEZAS ROJO MOD GM566",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -797,7 +797,7 @@ const stock = [
         nombreProducto: "CORTADORA GAMA ITALY INALAMBRICA SPORT CUCHILLAS DE ACERO INOX 5 PEINES AMARILLO MOD GCX623",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -806,7 +806,7 @@ const stock = [
         nombreProducto: "COMBO CORTADORA GAMA DE CABELLO + TRIMMER CORRIENTE DIRECTA 12W 5 PEINES ACERO INOX 29PZAS MOD GM562 GT420",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -815,7 +815,7 @@ const stock = [
         nombreProducto: "CORTADORA VINTAGE DE PELO INALAMBRICA PATILLERA ESTILO TRIMMER 5W MOD T9",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -824,7 +824,7 @@ const stock = [
         nombreProducto: "CORTADORA GAMA CORRIENTE DIRECTA 4 PEINES 9PZA MOD CLIPPER GM VECTOR",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -833,7 +833,7 @@ const stock = [
         nombreProducto: "CORTADORA ORYX INALAMBRICA 4 PEINES 6 EN 1 5W NARANJA MOD DL-1515",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -842,7 +842,7 @@ const stock = [
         nombreProducto: "SECADOR OM DE PELO",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -851,7 +851,7 @@ const stock = [
         nombreProducto: "SECADOR GAMA DE PELO 2 VELOCIDADES 2 NIVELES TEMPERATURA 2000W MOD GEVO 3800 ULTRA LIGHT TITANIUM",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -860,7 +860,7 @@ const stock = [
         nombreProducto: "SECADOR GAMA DE PELO 2 VELOCIDADES 2 NIVELES TEMPERATURA 2000W MOD ULTRA GEVO 3800 TITANIUM ION",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -869,7 +869,7 @@ const stock = [
         nombreProducto: "SECADOR GAMA DE PELO ITALY 2 VELOCIDADES 2200W NEGRO MOD VENTO-ET",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -878,7 +878,7 @@ const stock = [
         nombreProducto: "SECADOR GAMA DE PELO EOLIC MANGO PLEGABLE 1600W MOD HELIOS",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -887,7 +887,7 @@ const stock = [
         nombreProducto: "CEPILLO ORYX SECADOR 3 EN 1",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -896,7 +896,7 @@ const stock = [
         nombreProducto: "PLANCHA GAMA DE CABELLO C/ PLACAS IONICAS 230C MOD BELLA TOURMALINE RED ION",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -905,7 +905,7 @@ const stock = [
         nombreProducto: "PLANCHA OM ECONOMICA DELUXE 160C",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -914,7 +914,7 @@ const stock = [
         nombreProducto: "PLANCHITA GAMA ITALY ELECTRICA CERAMICO TEMPERATURA 230C MOD SLICE - XU",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -923,7 +923,7 @@ const stock = [
         nombreProducto: "PLANCHITA GAMA ITALY ELECTRICA IONICA TEMPERATURA 230C NEGRO MOD BELLA CERAMIC SHINE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -932,7 +932,7 @@ const stock = [
         nombreProducto: "DEPILADORA GAMA ITALY ELECTRICA USB 8 ACCESORIOS 2 VELOCIDADES 4 CABEZALES MOD OASIS",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -941,7 +941,7 @@ const stock = [
         nombreProducto: "PARLANTE PRO BASS BLUETOOTH PORTATIL 400W MOD STREET 12",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -950,7 +950,7 @@ const stock = [
         nombreProducto: "PARLANTE SMARTLIFE C/ BLUETOOH 8 ��8W MOD SL-PB10808",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -959,7 +959,7 @@ const stock = [
         nombreProducto: "PARLANTE SEIS ULTRABOOM 8'' 1200W MOD AF-6",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -968,7 +968,7 @@ const stock = [
         nombreProducto: "PARLANTE KEN BROWN BLUETOOTH DOBLE WOOFER 16000W NEGRO MOD NUKE-8",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -977,7 +977,7 @@ const stock = [
         nombreProducto: "PARLANTE CROWN MUSTANG PORTATIL BLUETOOTH POTENCIADO 10 22000W NEGRO MOD MOOVE-10BT",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -986,7 +986,7 @@ const stock = [
         nombreProducto: "PARLANTE ORYX PORTATIL BLUETOOTH CANNES 10 DE PIE LUCES LED C/ MICROFONO 80W MOD OR-1213",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -995,7 +995,7 @@ const stock = [
         nombreProducto: "PARLANTE STAR VISION PORTATIL BLUETOOTH IBIZA 40W 22000W MOD SV-1509",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -1004,7 +1004,7 @@ const stock = [
         nombreProducto: "PARLANTE CROWN MUSTANG PORTATIL BLUETOOTH 8500W 6.5 NEGRO MOD SBL-6500BT",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Musica",
         stock: 1
     },
     {
@@ -1013,7 +1013,7 @@ const stock = [
         nombreProducto: "CONSOLA LITE GAME78 M15 PS4 MOD AL6118W",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Consolas",
         stock: 1
     },
     {
@@ -1022,7 +1022,7 @@ const stock = [
         nombreProducto: "CONSOLA 2.4G WIRELESS 3D ROCKER PS5",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Consolas",
         stock: 1
     },
     {
@@ -1031,7 +1031,7 @@ const stock = [
         nombreProducto: "JOYSTICK CONTROL PS3",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Consolas",
         stock: 1
     },
     {
@@ -1040,7 +1040,7 @@ const stock = [
         nombreProducto: "CALCULADORA KENKO CIENTIFICA MOD KK 82MSD",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1049,7 +1049,7 @@ const stock = [
         nombreProducto: "CONTADORA BILL COUNTER DE BILLETE",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1058,7 +1058,7 @@ const stock = [
         nombreProducto: "GAVETA MONEDERO ESMALTADA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1067,7 +1067,7 @@ const stock = [
         nombreProducto: "PIZARRA MAGICA 8.5PULGAD LED MOD WRITING",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Juguetes",
         stock: 1
     },
     {
@@ -1076,7 +1076,7 @@ const stock = [
         nombreProducto: "IMPRESORA HP MULTIFUNCION A COLOR DESKJET INK ADVANTAGE 2775 C/ WIFI MOD 7FR21A",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1085,7 +1085,7 @@ const stock = [
         nombreProducto: "NOTEBOOK NOBLEX 14.1 4GB/128GB",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "PC",
         stock: 1
     },
     {
@@ -1094,7 +1094,7 @@ const stock = [
         nombreProducto: "NETBOOK EXO X5",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "PC",
         stock: 1
     },
     {
@@ -1103,7 +1103,7 @@ const stock = [
         nombreProducto: "REPETIDOR KANJI WIFI 2 ANTENAS MOD KJN-RP4200C",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1112,7 +1112,7 @@ const stock = [
         nombreProducto: "TV EMEZETA SMART SIN ANDROID 32 MZN1032HD",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Smart TV",
         stock: 1
     },
     {
@@ -1121,7 +1121,7 @@ const stock = [
         nombreProducto: "TV BLUMENT 43",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Smart TV",
         stock: 1
     },
     {
@@ -1130,7 +1130,7 @@ const stock = [
         nombreProducto: "CONVERTIDOR 4GB/32GB 4K",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1139,7 +1139,7 @@ const stock = [
         nombreProducto: "SOPORTE ARIN TV 14'' A 42'' MOD WZQ0717014",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1148,7 +1148,7 @@ const stock = [
         nombreProducto: "SOPORTE ARIN TV 26'' A 63'' MOD AR03",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1157,7 +1157,7 @@ const stock = [
         nombreProducto: "SOPORTE TV 14 A 55 MOVIL MAX 50KGS MOD HDL-117B-2KA",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "otros",
         stock: 1
     },
     {
@@ -1166,7 +1166,7 @@ const stock = [
         nombreProducto: "VAPER LAMBORGHINI 12000PUFFS BATERIA 650MAH BATERIA RECARGABLE 1.56% NICOTINA GRAPE ICED",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1175,7 +1175,7 @@ const stock = [
         nombreProducto: "VAPER LOST MARY 10000PUFFS 50MG NICOTINA 600MAH MOUNTAIN MINT",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1184,7 +1184,7 @@ const stock = [
         nombreProducto: "VAPER TORCH MOD THC-A SATIVA LIVE ROSIN USB 5G DIGITAL",
         precioMinorista: 20000,
         precioMayorista: null,
-        categoria: "",
+        categoria: "Tecnologia",
         stock: 1
     },
     {
@@ -1193,7 +1193,7 @@ const stock = [
         nombreProducto: "BICICLETA FUTURA RODADO 16 NENE",
         precioMinorista: 10001,
         precioMayorista: null,
-        categoria: 'Celulares',
+        categoria: 'BICICLETA',
         stock: 1
     }
 ]

@@ -267,7 +267,7 @@ function filtrarPrecio() {
 
 function filtrarCat() {
     const selector = document.querySelector('#selectorCateg').value;
-
+    contenedor.textContent='';  
     stock.forEach(stockk =>{
         const { productoId, nombreProducto, precioMinorista, precioMayorista, img, categoria, stock } = stockk;
         if (categoria == selector) {
@@ -280,7 +280,7 @@ function filtrarCat() {
     
             const imagenProd = document.createElement('img');
             imagenProd.classList.add('product--img');
-            imagenProd.src = img
+            imagenProd.src = `../components/fotos/${img}`
             producto.appendChild(imagenProd);
     
             const contenedorTextos = document.createElement('div');
@@ -312,8 +312,6 @@ function filtrarCat() {
             agregarBoton.classList.add('agregar-carrito');
             agregarBoton.textContent = 'Agregar';
             producto.appendChild(agregarBoton);
-        } else{
-            limpiarHTML()
         }
     })
 }
