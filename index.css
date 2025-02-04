@@ -6,6 +6,7 @@ body{
     background-color: #2E073F;
     margin: 0;
     height: auto;
+    overflow-x: hidden;
 }
 
 header{
@@ -298,13 +299,13 @@ th:last-child, td:last-child {
 }
 
 main{
-    background: linear-gradient(to bottom, #ddd, #ddd, #2E073F, #2E073F);
+    background: linear-gradient(to bottom, #dedede, #814899, #814899, #814899, #2E073F, #2E073F);
 }
 
 #categorias{
     width: 100%;
     height: auto;
-    background-color: #ddd;
+    background-color: #c6b6cc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -457,6 +458,40 @@ i{
     margin-left: 1rem;
 }
 
+#galeria{
+    margin-top: 10rem;
+    width: 100dvw;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria--titulo{
+    width: 80%;
+    font-size: 40px;
+    align-self: self-start;
+    padding-left: 10rem;
+    color: #fff;
+}
+
+.galeria--contenedor{
+    width: 100dvw;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.img--galeria{
+    width: 500px;
+    height: 400px;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
 @media screen and (max-width: 768px) {
     .abrir--menu, .cerrar--menu{
         display: block;
@@ -598,6 +633,14 @@ i{
         gap: 0;
     }
 
+    main{
+        background: transparent;
+    }
+
+    #categorias{
+        padding-bottom: 1rem;
+    }
+
     .categoria--items{
         padding: 0;
         gap: 1.5rem;
@@ -636,7 +679,7 @@ i{
 
     .producto--contenedor{
         width: 100%;
-        height: 500px;
+        height: auto;
     }
 
     .productos--nuevos--anchor{
@@ -654,5 +697,23 @@ i{
 
     .submenu:hover #carrito{
         display: none;
+    }
+
+    .galeria--titulo{
+        width: 100%;
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .galeria--contenedor{
+        flex-direction: column;
+    }
+
+    .img--galeria{
+        width: 100%;
+        flex-grow: 1;
+        flex-basis: 200;
+        object-fit: cover;
     }
 }
