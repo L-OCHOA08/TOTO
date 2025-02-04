@@ -208,6 +208,7 @@ ul{
     height: 250px;
     padding-top: 1rem;
     object-fit: contain;
+    background-color: #fff;
 }
 
 .product--text{
@@ -295,6 +296,10 @@ ul{
 .filtros label{
     font-size: 20px;
     color: #111;
+}
+
+#code{
+    visibility: visible;
 }
 
 .filtros input{

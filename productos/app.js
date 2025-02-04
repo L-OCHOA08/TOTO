@@ -7,6 +7,7 @@ const producto = document.querySelectorAll('.product')
 const filter = document.querySelector('#filter--button');
 const filtros = document.querySelector('.filtros');
 const filtrarBoton = document.querySelector('#filtros--input');
+const codeFilter = document.querySelector('#code');
 const maximo = document.querySelector('#hasta');
 
 
@@ -38,10 +39,12 @@ filter.addEventListener('change', ()=>{
     if (filter.checked) {
         filtros.classList.remove('invisible');
         maximo.classList.remove('invisible');
+        codeFilter.classList.remove('invisible')
         filtrarBoton.style='visibility: visible;';
     } else{
         filtros.classList.add('invisible');
-        maximo.classList.add('invisible')
+        maximo.classList.add('invisible');
+        codeFilter.classList.add('invisible')
         filtrarBoton.style='visibility: hidden;';
     }
 })
@@ -50,7 +53,7 @@ filter.addEventListener('change', ()=>{
 document.addEventListener('DOMContentLoaded', cargarProductos(stock));
 
 filtrarPrecio()
-
+filtrarCode()
 
 // FUNCIONES
 
@@ -104,6 +107,61 @@ function cargarProductos(stock) {
     });
 }
 
+function filtrarCode() {
+    let codeFilter = document.querySelector('#code');
+    codeFilter.addEventListener('keyup', ()=>{
+        let codeValue = document.querySelector('#code').value;
+        stock.forEach(stockk =>{
+            const { productoId, nombreProducto, precioMinorista, precioMayorista, img, stock } = stockk;
+            if (codeValue == productoId) {
+                limpiarHTML()
+
+                const producto = document.createElement('div');
+                producto.classList.add('product');
+                producto.id = `${productoId}`;
+                producto.dataset.modelo = `${productoId}`;
+                producto.dataset.id = `${productoId}`
+                contenedor.appendChild(producto);
+
+                const imagenProd = document.createElement('img');
+                imagenProd.classList.add('product--img');
+                imagenProd.src = `../components/fotos/${img}`
+                producto.appendChild(imagenProd);
+        
+                const contenedorTextos = document.createElement('div');
+                contenedorTextos.classList.add('product--text');
+                producto.appendChild(contenedorTextos);
+        
+                const productoTitulo = document.createElement('h3');
+                productoTitulo.classList.add('product--title');
+                productoTitulo.textContent = nombreProducto;
+                contenedorTextos.appendChild(productoTitulo);
+        
+                const precios = document.createElement('div');
+                precios.classList.add('product--price');
+                contenedorTextos.appendChild(precios);
+        
+                const minorista = document.createElement('p');
+                minorista.classList.add('product--price--minorist');
+                minorista.textContent = 'Minorista: $' + precioMinorista;
+                precios.appendChild(minorista);
+        
+                const mayorista = document.createElement('p');
+                mayorista.classList.add('product--price--mayorist');
+                mayorista.textContent = 'Mayorista: $' + precioMayorista;
+                precios.appendChild(mayorista);
+        
+                const agregarBoton = document.createElement('button');
+                agregarBoton.dataset.id = `${productoId}`
+                agregarBoton.classList.add('product--button');
+                agregarBoton.classList.add('agregar-carrito');
+                agregarBoton.textContent = 'Agregar';
+                producto.appendChild(agregarBoton);
+            }
+        })
+    })
+}
+
 function filtrarPrecio() {
 
     let filterMaximo = document.querySelector('#hasta');
@@ -122,7 +180,7 @@ function filtrarPrecio() {
     
             const imagenProd = document.createElement('img');
             imagenProd.classList.add('product--img');
-            imagenProd.src = img
+            imagenProd.src = `../components/fotos/${img}`
             producto.appendChild(imagenProd);
     
             const contenedorTextos = document.createElement('div');
@@ -165,7 +223,7 @@ function filtrarPrecio() {
     
             const imagenProd = document.createElement('img');
             imagenProd.classList.add('product--img');
-            imagenProd.src = img
+            imagenProd.src = `../components/fotos/${img}`
             producto.appendChild(imagenProd);
     
             const contenedorTextos = document.createElement('div');
