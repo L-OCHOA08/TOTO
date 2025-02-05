@@ -126,7 +126,7 @@ function limpiarCarrito() {
 
 
 function wsp() {
-const numero = '1164909268';
+const numero = '+541164909268';
 
 let mensaje = '¡Hola! Quiero hacer un pedido:%0A';
 
