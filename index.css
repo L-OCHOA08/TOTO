@@ -664,6 +664,7 @@ i{
         margin-top: 2rem;
         width: 100%;
         border-radius: 0;
+        padding-bottom: 0;
     }
 
     .productos--nuevos--titulo{
@@ -703,7 +704,7 @@ i{
 
     .galeria--titulo{
         width: 100%;
-        font-size: 20px;
+        font-size: 30px;
         padding: 0;
         text-align: center;
     }

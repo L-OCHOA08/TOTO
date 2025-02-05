@@ -325,7 +325,8 @@ function buscar(buscador) {
         console.log(productoId);
         if (query != productoId) {
             productos.classList.add('invisible')
-        } else{
+        }
+        if (!query) {
             productos.classList.remove('invisible')
         }
     })
